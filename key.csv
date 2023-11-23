@@ -1,0 +1,132 @@
+Data Frame Key
+Key,Meaning
+-1,Data Missing
+
+
+first_road_class
+Old,New
+A,0
+A(M),1
+B,2
+C,3
+Motorway,4
+Unclassified,5
+
+
+road_type
+Old,New
+Dual carriageway,0
+One way street/Slip road,1
+Roundabout,2
+Single carriageway,3
+
+
+junction_detail
+Old,New
+Crossroads,0
+Mini-roundabout,1
+More than 4 arms (not roundabout),2
+Not at junction or within 20 metres,3
+Other junction,4
+Private drive or entrance,5
+Roundabout,6
+Slip road,7
+T or staggered junction,8
+
+
+junction_control
+Old,New
+-1,0
+Authorised person,1
+Auto traffic signal,2
+Give way or uncontrolled,3
+Stop sign,4
+
+
+second_road_class
+Old,New
+-1,0
+A,1
+A(M),2
+B,3
+C,4
+Motorway,5
+Unclassified,6
+
+
+pedestrian_crossing_human_control
+Old,New
+Control by other authorised person,0
+Control by school crossing patrol,1
+None within 50 metres ,2
+
+
+pedestrian_crossing_physical_facilities
+Old,New
+Central refuge,0
+Footbridge or subway,1
+No physical crossing facilities within 50 metres,2
+Pedestrian phase at traffic signal junction,3
+"Pelican, puffin, toucan or similar non-junction pedestrian light crossing",4
+Zebra,5
+
+
+light_conditions
+Old,New
+Darkness - lighting unknown,0
+Darkness - lights lit,1
+Darkness - lights unlit,2
+Darkness - no lighting,3
+Daylight,4
+
+
+weather_conditions
+Old,New
+Fine + high winds,0
+Fine no high winds,1
+Fog or mist,2
+Other,3
+Raining + high winds,4
+Raining no high winds,5
+Snowing + high winds,6
+Snowing no high winds,7
+
+
+road_surface_conditions
+Old,New
+Dry,0
+Flood over 3cm. deep,1
+Frost or ice,2
+Mud,3
+Oil or diesel,4
+Snow,5
+Wet or damp,6
+
+
+special_conditions_at_site
+Old,New
+Auto signal part defective,0
+Auto traffic signal - out,1
+None,2
+Road sign or marking defective or obscured,3
+Road surface defective,4
+Roadworks,5
+
+
+carriageway_hazards
+Old,New
+Dog on road,0
+None,1
+Other animal on road,2
+Other object on road,3
+Previous accident,4
+Vehicle load on road,5
+
+
+urban_or_rural_area
+Old,New
+Rural,0
+Unallocated,1
+Urban,2
+
+
